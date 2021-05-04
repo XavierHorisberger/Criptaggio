@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>i19horxav_cript.html</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Html Criptaggio">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Xavier Horisberger">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="i1ahorxav_favicon.png" type="image/x-icon">
+        <!--data creazione: 27.04.2021-->
+        <!--ultima modifica: 27.04.2021-->
+        <!--browser: chrome-->
+        <!--OS: windows 10-->
+        <script src="javascript.js"></script>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family: monospace;
+            }
+            input{
+                width: 100%;
+            }
+        </style>
+    </head>
+    
+    <body onload="fillArrays()">
+        
+        <h1>Chiave Monoalfabetica</h1>
+        <br>
+        <input type="text" id="t" onkeyup="cript();">
+        <br><br>
+        <input type="text" id="o" disabled>
+        <br><br>
+        <p>Original: abcdefghijklmnopqrstuvwxyz1234567890</p>
+        <br>
+        <p id="a"></p>
+    </body>
+</html>
