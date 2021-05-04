@@ -24,12 +24,12 @@ function fillArrays(){
     }
     
     //stampa alfabeto criptato
-    var prova1 = "";
+    var alfa = "";
     for(var i = 0;i < 26;i++){
-        prova1 += alfabetCript[i];
+        alfa += alfabetCript[i];
     }
     document.getElementById("a").innerHTML = "Criptato: ";
-    document.getElementById("a").innerHTML += prova1;
+    document.getElementById("a").innerHTML += alfa;
     
     /*
         NUMERI
@@ -46,11 +46,11 @@ function fillArrays(){
     }
     
     //stampa numeri criptati
-    var prova2 = "";
+    var numeri = "";
     for(var i = 0;i < 10;i++){
-        prova2 += numCript[i];
+        numeri += numCript[i];
     }
-    document.getElementById("a").innerHTML += prova2;
+    document.getElementById("a").innerHTML += numeri;
 }
 
 function cript(){
